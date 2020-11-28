@@ -465,16 +465,16 @@
 
                   </div>
 
-                  <div id="message">
+               <div id="message">
                       <h2>Envia un mensaje</h2>
-                      <form>
-                          <input type="text" name="nombre" placeholder="Nombre">
+                      <form action="enviar.php" method="post">
+                          <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
 
-                          <input type="email" name="email" placeholder="Email">
+                          <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
 
-                          <textarea  placeholder="Dime que necesitas..."></textarea>
+                          <textarea name="message" class="message"  placeholder="Dime que necesitas..." id="message"></textarea>
 
-                          <input type="submit" name="enviar" value="Enviar Mensaje">
+                          <input type="checkbox" name="acepto" value="Enviar Mensaje">
                           
                       </form>
                       
