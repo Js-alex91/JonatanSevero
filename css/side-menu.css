@@ -1,0 +1,175 @@
+:root{
+
+    --width:300px;
+    --padding: 10px;
+    --bgcolor: rgb(52, 52, 52);
+    --hovercolor: rgb(23, 23, 23);
+    --width-collapsed: 50px;
+    
+}
+
+body{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+padding: 0;
+margin: 0;
+
+
+
+
+}
+
+.body-expanded{
+    margin-left: 500px;
+}
+#main-container{
+    color: white;
+
+}
+
+#sidemenu{
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    
+        
+
+}
+
+#sidemenu a{
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+#sidemenu #header{
+    box-sizing: border-box;
+    border-bottom: solid 1px var(--hovercolor);
+
+}
+
+#sidemenu #header #title{
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+#sidemenu #header #title, #sidemenu #header #menu-btn{
+
+    vertical-align: middle;
+    
+
+}
+
+#sidemenu #header #menu-btn{
+    display: inline-block;
+}
+
+
+#sidemenu #header #menu-btn{
+
+    cursor: pointer;
+    padding: 10px;
+    width: var(--width-collapsed);
+    box-sizing: border-box;
+
+}
+
+#sidemenu #header #menu-btn:hover{
+
+    background-color: var(--hovercolor);
+
+
+}
+
+#sidemenu #header #menu-btn .btn-hamburger{
+
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+
+
+
+}
+
+
+
+#sidemenu #profile{
+
+        border-bottom: solid 1px var(--hovercolor);
+        padding: var(--padding) 0;
+        text-align: center;
+
+}
+
+#sidemenu #profile #photo{
+
+    box-sizing: border-box;
+    padding: var(--padding);
+    margin: 0 auto;
+
+}
+
+#sidemenu #profile #phote img{
+
+    border-radius: 50%;
+    width: 60%;
+
+}
+
+
+#sidemenu #profile #photo, #sidemenu #profile #name{
+
+    font-size: 24px;
+    padding: var(--padding) 0;
+    overflow: hidden;
+
+}
+
+#sidemenu #menu-items{
+    overflow: hidden;
+}
+
+#sidemenu #menu-items .item{
+
+    width: 600px;
+}
+
+#sidemenu #menu-tiems .item .icon{
+    display:inline-block
+
+}
+
+#sidemenu #menu-tiems .item .icon,
+#sidemenu #menu-tiems .item .title{
+
+    font-size: 14px;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+#sidemenu #menu-items .item a{
+
+    display: block;
+}
+
+
+
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: transparent;
+    left: -200px;
+    transition: all 500ms linear;
