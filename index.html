@@ -467,16 +467,14 @@
 
                <div id="message">
                       <h2>Envia un mensaje</h2>
-                      <form action="enviar.php" method="post">
-                          <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-
-                          <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
-
-                          <textarea name="message" class="message"  placeholder="Dime que necesitas..." id="message"></textarea>
-
-                          <button type="checkbox" name="acepto" value="Enviar Mensaje"></button>
-                          
-                      </form>
+                     <form action="enviar.php" method="post">
+                        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                        <div class="clear"></div>
+                            <div class="col-md-8"> 
+                                <button type="submit" class="btn btn-primary">ENVIAR </button>
                       
                   </div>
 
