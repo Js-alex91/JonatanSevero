@@ -1,25 +1,11 @@
 <?php
-$name = $_POST['name'];
-$mail = $_POST['mail'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+    $destino= "alexisssevero@gmail.com";
+    $nombre = $_POST["nombre"];
+    $correo = $_POST["correo"];
+    $telefono = $_POST["telefono"];
+    $mensaje = $_POST["mensaje"];
+    $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTelefono: " . $telefono . "\nMensaje: " . $mensaje; 
+    mail($destino,"Contacto",$contenido);
+    header("Location:index.html")
 
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
-
-$message = "Este mensaje fue enviado por: " . $name . " \r\n";
-$message .= "Su e-mail es: " . $mail . " \r\n";
-$message .= "Teléfono de contacto: " . $phone . " \r\n";
-$message .= "Mensaje: " . $_POST['message'] . " \r\n";
-$message .= "Enviado el: " . date('d/m/Y', time());
-
-$para = 'alexisssevero@gmail.com';
-$asunto = 'Mensaje de mi website personal JonatanSevero';
-
-mail($para, $asunto, utf8_decode($message), $header);
-
-header("Location:index.html");
 ?>
-
