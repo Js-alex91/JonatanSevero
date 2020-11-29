@@ -231,7 +231,7 @@ nav{
     transform: rotateY(0deg) scale(1);
 }
 
-.menut ul li ul li ul {
+.menut ul li ul li ul{
     right: -401px;
     top: 36px;
     background: transparent;
