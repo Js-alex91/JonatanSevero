@@ -1,0 +1,34 @@
+
+.cursor{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background: #f0f8ff;
+    transform: rotate(40deg);
+    transition: all .2s linear;
+    border: 4px solid #ffffffad;
+    box-shadow: 0 0 140px 70px rgb(174, 0, 255);
+    border-radius: 100%;
+    z-index: 100;
+}
+.cursor span{
+  position: relative;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0 0 70px 40px #ffffff;
+  border-radius: 100%;
+  background: #ffffff70;
+  z-index: 999;
+}
+.cursor.cgreen{
+  background: #ceff7c;
+  border-color: #61960f8a;
+  box-shadow: 0 0 144px 109px #8bd819;
+}
+.cursor.cgreen span{
+  box-shadow: 0 0 60px 40px #9ce625;
+  background: #99dc25;
+}
