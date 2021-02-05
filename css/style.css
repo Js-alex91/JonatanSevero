@@ -899,6 +899,8 @@ margin-left: 5%;
 
 }
 
+
+
 @media (max-width: 411px){
 
     .menut{
@@ -1023,5 +1025,43 @@ meter::-webkit-meter-suboptimum-value {
 
 
 
+
+
+@media (max-width: 420px){
+
+    
+    h2 {
+        
+        margin-top: 25%;
+    }
+        .items {
+            width: 50%;
+            margin: 2px auto;
+        }
+
+}
+
+
+@media (max-width: 550px){
+
+    #message {
+        /* width: 50%; */
+        margin: 0px auto;
+        width: 100%;
+    }
+    
+
+
+
+    .items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    margin: 2px auto;
+}
+
+
+}
 
 
