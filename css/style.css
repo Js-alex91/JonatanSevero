@@ -10,7 +10,7 @@ body{
 
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    background-image: url(wall.gif);
+    background-image: url(.../wall.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
