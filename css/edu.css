@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Bellefair|Comfortaa|Satisfy|Slabo+27px|Vidaloka');
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
