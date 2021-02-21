@@ -18,7 +18,7 @@ a:hover {
 
 p {
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.5); }
+  color: white; }
 
 .small {
   font-size: 1rem;
@@ -37,7 +37,7 @@ h1 {
   font-weight: 600; }
 
 svg {
-  position: absolute;
+  position:absolute; z-index:2;
   top: 0;
   left: 0;
   width: 100%;
@@ -103,7 +103,7 @@ button {
     background-color:#1508bd; }
 
 .options {
-  position: absolute;
+  position:absolute; z-index:2;
   top: 1rem;
   right: 1rem; }
   .options button {
