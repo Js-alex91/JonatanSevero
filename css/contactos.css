@@ -175,6 +175,7 @@
     border-bottom: none;
 }
 
+
 #info button{
     margin-top: 5px;
     padding: 17px 40px;
@@ -202,5 +203,11 @@
         margin: 0px auto;
     }
 
+
+}
+
+.input {
+    background: black;
+    color: white;
 
 }
