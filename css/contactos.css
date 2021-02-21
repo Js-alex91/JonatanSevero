@@ -78,7 +78,7 @@
     font-weight: bold;
     border: 5px solid rgb(142, 4, 177);
     border-radius: 30px;
-    background-color: var(--color-verde);
+    background-color: black;
     box-shadow: 0px 2px 5px rgb(142, 4, 177);
     transition: 400ms;
     cursor: pointer;
