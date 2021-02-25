@@ -907,6 +907,20 @@ margin-left: 5%;
 	
 	
 	@media (max-width: 603px){
+		
+		
+		body{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background-image: url(../fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+
+}
+		
 
    
 	.project-details {
